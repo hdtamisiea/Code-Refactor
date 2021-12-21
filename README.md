@@ -35,7 +35,7 @@ My challenge was to refactor an existing webpage to make it accessible and to im
 
 ![Horiseon Page View](/assets/images/Page.png)
 
-## Site can be viewed [here.](https://hdtamisiea.github.io/Code-Refactor/)
+## Site can be viewed at [https://hdtamisiea.github.io/Code-Refactor.](https://hdtamisiea.github.io/Code-Refactor/)
 
 ## Credits
 
