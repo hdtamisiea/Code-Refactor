@@ -31,8 +31,8 @@ My challenge was to refactor an existing webpage to make it accessible and to im
 * WHEN I view the title element
     * THEN I find a concise, descriptive title
 
-## Page View
+## Page View After Optimization
 
 ![Horiseon Page View](/assets/images/Page.png)
 
-## Site can be viewed [here.]()
+## Site can be viewed [here.](https://hdtamisiea.github.io/Code-Refactor/)
