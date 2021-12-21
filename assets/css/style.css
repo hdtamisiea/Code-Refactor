@@ -1,3 +1,5 @@
+/* Global Style */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,20 @@
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* End Global Styles */
+
+
+/* Header Styles */
 
 header {
     padding: 20px;
@@ -32,23 +48,15 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+/* End Header Styles
 
-p {
-    font-size: 16px;
-}
+
+/* Hero Styles */
 
 .hero {
     height: 800px;
@@ -58,6 +66,11 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* End Hero Styles */
+
+
+/* Service Styles */
 
 .float-left {
     float: left;
@@ -73,63 +86,31 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+   
 }
-
-#search-engine-optimization {
+.service-type {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    overflow: auto;   
 }
 
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-
-
-#search-engine-optimization img {
+.content img {
     max-height: 200px;
 }
 
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* End Service Styles */
 
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
+/* Benefits Styles */
 
 .benefits {
     margin-right: 20px;
@@ -142,7 +123,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -157,7 +138,7 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
